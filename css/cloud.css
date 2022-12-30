@@ -1,0 +1,27 @@
+
+header
+{
+
+}
+
+body
+{
+    background-color: #EBF5FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav
+{
+
+}
+
+section
+{
+
+}
+
+footer
+{
+    margin-top: auto;
+}
