@@ -1,27 +1,92 @@
-
-header
-{
-
-}
-
+/* Main tags */
 body
 {
     background-color: #EBF5FF;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0rem;
 }
+
+header
+{
+    background-color: lightgray;
+    border-bottom: .15em solid black;
+    overflow: hidden;
+}
+
 nav
 {
-
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
 }
 
-section
+nav ul
 {
+    margin: 0;
+    padding: 0;
+}
 
+nav ul li
+{
+ display: inline-block;
+ list-style-type: none;
+}
+
+nav ul li a 
+{
+    display: block;
+    text-decoration: none;
+    line-height: 2em;
+    padding: 0.5em 1em;
 }
 
 footer
 {
-    margin-top: auto;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1rem;
+    border-top: .15em solid black;
+}
+
+h1
+{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/* Classes */
+
+.mainbody
+{
+    background-color: white;
+    margin: 0rem auto 0rem auto;
+    padding: 1rem;
+    width: 70%;   
+}
+
+.title
+{
+    text-align: center;
+    font-size: 5rem;
+    margin: 0rem auto 1rem auto;
+}
+
+/* Picture Ids */
+
+#cloudpicheader
+{
+    height: 8em;
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+#cloudpic
+{
+    display: block;
+    margin: auto;
+    width: 50%;
 }
