@@ -36,14 +36,14 @@ nav ul li a {
 footer {
     background-color: lightgray;
     text-align: center;
-    padding: 1rem;
+    padding: 1em;
     border-top: 0.15em solid black;
     margin-top: auto;
 }
 
 h1 {
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 2em;
 }
 
 /* Classes */
@@ -51,15 +51,15 @@ h1 {
 .mainbody {
     background-color: white;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1em;
     width: 70%;
     min-height: 100vh;
 }
 
 .title {
     text-align: center;
-    font-size: 5rem;
-    margin: 0 auto 1rem;
+    font-size: 5em;
+    margin: 0 0 2% 0;
 }
 
 /* Picture Ids */
@@ -67,8 +67,8 @@ h1 {
 #cloudpicheader {
     height: 2em;
     float: left;
-    position: fixed;
-    margin: .3em 0em .3em 8em;
+    position: absolute;
+    margin: .5% 1% .5% .5%;
 }
 
 #cloudpic {
