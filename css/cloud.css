@@ -1,36 +1,64 @@
 /* Main tags */
 body {
     background-color: #EBF5FF;
-    display: flex;
-    flex-direction: column;
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
-    float: left;
-    overflow: hidden;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     font-size: 2em;
     border-bottom: 0.15em solid black;
-    background-color: lightgray;
+    background-color: lightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: .3em 0em;
+    
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    margin-left: 1em;
+}
+
+.logo a
+{
+    text-decoration: none;
+}
+
+.navlinks
+{
+
 }
 
 nav ul {
-    margin: 1em 0 0 0;
+    margin: 0;
     padding: 0;
-    text-align: center;
     list-style: none;
 }
 
 nav ul li {
     display: inline-block;
-    list-style-type: none;
+    text-align: center;
 }
 
 nav ul li a {
-    display: block;
     text-decoration: none;
     line-height: .5em;
-    padding: 0.5em .5em;
+    padding: 0em .5em;
+}
+
+.signin
+{
+    margin-right: 1em;
+    position: absolute;
+    right: 0px;
 }
 
 footer {
@@ -50,10 +78,10 @@ h1 {
 
 .mainbody {
     background-color: white;
-    margin: 0 auto;
-    padding: 1em;
-    width: 70%;
-    min-height: 100vh;
+    margin: auto;
+    padding: 1rem;
+    max-width: 1400px;
+    /* min-height: 100vh; */
 }
 
 .title {
@@ -66,9 +94,7 @@ h1 {
 
 #cloudpicheader {
     height: 2em;
-    float: left;
-    position: absolute;
-    margin: .5% 1% .5% .5%;
+    /* padding: .5em 0em 0em .5em; */
 }
 
 #cloudpic {
