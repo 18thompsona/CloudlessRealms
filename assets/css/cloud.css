@@ -76,35 +76,27 @@ body {
 
 .front_section_text
 {
-
+    text-align: center;
+    margin-top: 0;
 }
 
 .front_section_image_left
 {
-    /* float: left; */
+    padding-top: 5px;
     width: 400px;
-    /* padding-right: 2em; */
 }
 
 
-footer {
-    background-color: lightgray;
-    text-align: center;
-    padding: 1em;
-    border-top: 0.15em solid black;
-    /* margin-top: auto; */
-}
 
-h1 {
-    margin-left: 2em;
-}
+
+
 
 .mainbody {
     background-color: white;
     margin: auto;
     padding: 1rem;
     max-width: 1200px;
-    min-height: 95vh;
+    min-height: 90vh;
 }
 
 .title {
@@ -113,22 +105,50 @@ h1 {
     margin: 0 0 2% 0;
 }
 
+h1 {
+    margin-left: 2em;
+}
+
+footer 
+{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+    border-top: 0.15em solid black;
+    /* margin-top: auto; */
+}
+
+.footer_info
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2em;
+}
+
 .icons
 {
     display: inline-block;
     list-style: none;
+    padding: 0em;
 }
 
 .icons li
 {
     list-style: none;
     display: inline;
-    padding: 0em .1em;
+    padding: 0em .2em;
 }
 
-.icons li a
+.icons a
 {
     text-decoration: none;
+    color: brown;
+}
+
+.icons a:hover
+{
+    color: blue;
 }
 
 
@@ -150,3 +170,30 @@ h1 {
     width: 400px;
     padding: .5em 1em;
 }
+
+
+ /* Style the button that is used to open and close the collapsible content */
+ .collapsible {
+    background-color: lightblue;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } 
