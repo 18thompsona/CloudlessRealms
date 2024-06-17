@@ -1,0 +1,52 @@
+
+#CardCreator
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CardCreator input,
+#CardTypeSelect
+{
+    width: 380px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#CardTypeSelect
+{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.CardInput
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#CardCreator input[type="submit"] 
+{
+    width: 100%;
+    align-self: center; /* Center the submit button */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#CardCreator textarea {
+    resize: vertical; /* Allow users to resize the textarea vertically */
+    height: 100px; /* Set an initial height for the textarea */
+    width: 380px;
+}
+
+.InFormSelect
+{
+    width: 385px;
+}

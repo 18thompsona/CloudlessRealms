@@ -61,6 +61,11 @@ body {
     right: 0px;
 }
 
+.signin a
+{
+    text-decoration: none;
+}
+
 .front_section
 {
     display: grid;
@@ -91,7 +96,7 @@ body {
     background-color: white;
     margin: auto;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 1400px;
     min-height: 90vh;
 }
 

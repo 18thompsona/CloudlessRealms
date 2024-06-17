@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Cloudless Realms</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/cloudsbackground">
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/cloud.css">
+        <link rel="stylesheet" href="assets/css/cardcreator.css">
+        <script src="https://kit.fontawesome.com/ca3049dc3b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <div class="logo">
+                <img id="cloudpicheader" hello src="assets/images/CloudBoyTransparent.png">
+                <a href="index.html">Cloudless Realms</a>
+            </div>
+
+            <div class="navlinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cards.html">Cards</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="quests.html">Quests</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <div class="signin">
+                Login
+            </div>
+        </nav>
+
+        <div class="mainbody">
+            <form id="CardCreator">
+                <select name="CardType" id="CardTypeSelect">
+                    <option value="Race">Races</option>
+                    <option value="Cornerstone">Cornerstone</option>
+                    <option value="Characteristic">Characteristic</option>
+                    <option value="Traits">Traits</option>
+                    <option value="Class">Class</option>
+                    <option value="Abilities">Abilities</option>
+                    <option value="Passive">Passive</option>
+                    <option value="Weapon">Weapon</option>
+                    <option value="Shield">Shield</option>
+                    <option value="Armor">Armor</option>
+                    <option value="Item">Item</option>
+                    <option value="Consumable">Consumable</option>
+                </select>
+                <span class="CardInput"><label for="name">Name:</label>
+                <input type="text"></span>
+
+                <span class="CardInput"><label for="description">Description:</label>
+                <textarea type="text"></textarea></span>
+
+                <span class="CardInput"><label for="effect">Effect:</label>
+                    <textarea type="text"></textarea></span>
+
+                <span class="CardInput"><label for="health">Health:</label>
+                <input type="text"></span>
+
+                <span class="CardInput"><label for="mana">Mana:</label>
+                <input type="text"></span>
+
+                <span class="CardInput"><label for="icon1">Icon 1:</label>
+                    <select name="icon1" class="InFormSelect">
+                        <option value="Gem1">Gem1</option>
+                        <option value="Gem2">Gem2</option>
+                        <option value="Gem3">Gem3</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="icon1_value">Icon 1 Value:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="icon2">Icon 2:</label>
+                    <select name="icon2" class="InFormSelect">
+                        <option value="Gem1">Gem1</option>
+                        <option value="Gem2">Gem2</option>
+                        <option value="Gem3">Gem3</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="icon2_value">Icon 2 Value:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="icon3">Icon 3:</label>
+                    <select name="icon3" class="InFormSelect">
+                        <option value="Gem1">Gem1</option>
+                        <option value="Gem2">Gem2</option>
+                        <option value="Gem3">Gem3</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="icon3_value">Icon 3 Value:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="icon4">Icon 4:</label>
+                    <select name="icon4" class="InFormSelect">
+                        <option value="Gem1">Gem1</option>
+                        <option value="Gem2">Gem2</option>
+                        <option value="Gem3">Gem3</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="icon4_value">Icon 4 Value:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="icon5">Icon 5:</label>
+                    <select name="icon5" class="InFormSelect">
+                        <option value="Gem1">Gem1</option>
+                        <option value="Gem2">Gem2</option>
+                        <option value="Gem3">Gem3</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="icon5_value">Icon 5 Value:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="gold">Gold:</label>
+                    <input type="text"></span>
+
+                <span class="CardInput"><label for="element_main">Main Element:</label>
+                    <select name="element_main" class="InFormSelect">
+                        <option value="Fire">Fire</option>
+                        <option value="Water">Water</option>
+                        <option value="Earth">Earth</option>
+                        <option value="Air">Air</option>
+                        <option value="Light">Light</option>
+                        <option value="Dark">Dark</option>
+                        <option value="Arcane">Arcane</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="element_sub">Sub Element:</label>
+                    <select name="element_sub" class="InFormSelect">
+                        <option value="None">None</option>
+                        <option value="Fire">Fire</option>
+                        <option value="Water">Water</option>
+                        <option value="Earth">Earth</option>
+                        <option value="Air">Air</option>
+                        <option value="Light">Light</option>
+                        <option value="Dark">Dark</option>
+                        <option value="Arcane">Arcane</option>
+                    </select></span>
+
+                <span class="CardInput"><label for="Art">Art</label>
+                    <input type="file"></span>
+
+                <input type="submit" value="Generate">
+            </form>
+
+            <canvas></canvas>
+        </div>
+
+        <footer>
+            <em>
+                This is a game made by Alexander Thompson(and friends) with many inspiration
+                such as URealms and DnD. I make no attempt to make this a completely new game,
+                Just a fun experience for me and my friends.
+            </em>
+            <br>
+            <div class="footer_info">
+                <p>&copy; Untitled. All rights reserved</p>
+                <div class="icons">
+                    <a href="#">Terms Of Use</a>
+                    · 
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <ul class="icons">
+                    <li><a href="#" class="fa-brands fa-twitch"></a></li>
+                    <li><a href="#" class="fa-brands fa-youtube"></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
